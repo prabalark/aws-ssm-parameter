@@ -1,4 +1,4 @@
-resource "aws_ssm_parameter" "parameter" {
+resource "aws_ssm_parameter" "parameter1" {
   name  = "test1"     # system manger
   type  = "string"
   value = "hello rk"
