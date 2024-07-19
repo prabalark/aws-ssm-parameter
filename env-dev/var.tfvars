@@ -11,6 +11,10 @@ parameter = [
   { name= "dev.frontend.cart_REDIS_HOST" , value= "redis.devops72bat.online" },
   { name= "dev.frontend.cart_CATALOGUE_HOST" , value= "catalogue.devops72bat.online" },
   { name= "dev.frontend.cart_CATALOGUE_PORT" , value= "8080" }
+  { name= "dev.frontend.shipping_CART_ENDPOINT" , value= "cart.devops72bat.online:8080" },
+  { name= "dev.frontend.shipping_db_host" , value= "mysql.devops72bat.online" },
+  { name= "dev.frontend.shipping_user" , value= "root" },
+  { name= "dev.frontend.shipping_password" , value= "RoboShop@1" }
 ]
 
 
