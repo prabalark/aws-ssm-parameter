@@ -16,20 +16,24 @@ parameter = [
   { name= "dev.frontend.shipping_CART_ENDPOINT" , value= "cart.devops72bat.online:8080" },
   { name= "dev.frontend.shipping_db_host" , value= "mysql.devops72bat.online" },
   { name= "dev.frontend.shipping_user" , value= "root" },
-  { name= "dev.frontend.shipping_password" , value= "RoboShop@1" },
   { name= "dev.frontend.payment_CART_HOST" , value= "cart.devops72bat.online" },
   { name= "dev.frontend.payment_CART_PORT" , value= "8080" },
   { name= "dev.frontend.payment_USER_HOST" , value= "user.devops72bat.online" },
   { name= "dev.frontend.payment_USER_PORT" , value= "8080" },
   { name= "dev.frontend.payment_AMQP_HOST" , value= "rabbitmq.devops72bat.online" },
   { name= "dev.frontend.payment_AMQP_USER" , value= "roboshop" },
-  { name= "dev.frontend.payment_AMQP_PASS" , value= "roboshop123" },
+
   { name= "dev.frontend.dispatch" , value= "dispatch.devops72bat.online" },
   { name= "dev.frontend.dispatch_AMQP_HOST" , value= "rabbitmq.devops72bat.online" },
   { name= "dev.frontend.dispatch_AMQP_USER" , value= "roboshop" },
-  { name= "dev.frontend.dispatch_AMQP_PASS" , value= "roboshop123" }
+
 ]
 
+password = [
+  { name= "dev.frontend.shipping_password" , value= "RoboShop@1" },
+  { name= "dev.frontend.payment_AMQP_PASS" , value= "roboshop123" },
+  { name= "dev.frontend.dispatch_AMQP_PASS" , value= "roboshop123" }
+]
 
 
 
