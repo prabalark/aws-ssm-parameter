@@ -26,7 +26,8 @@ parameter = [
   { name= "dev.frontend.payment_AMQP_PASS" , value= "roboshop123" }
 ]
 
-
+#{ name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop" },
+#{ name = "roboshop.dev.rabbitmq.amqp_pass", value = "roboshop123"}
 
 
 
