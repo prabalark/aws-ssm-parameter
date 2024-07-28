@@ -24,6 +24,9 @@ parameter = [
   { name= "dev.frontend.payment_AMQP_HOST" , value= "rabbitmq.devops72bat.online" },
   { name= "dev.frontend.payment_AMQP_USER" , value= "roboshop" },
   { name= "dev.frontend.payment_AMQP_PASS" , value= "roboshop123" }
+  { name= "dev.frontend.dispatch_AMQP_HOST" , value= "rabbitmq.devops72bat.online" },
+  { name= "dev.frontend.dispatch_AMQP_USER" , value= "roboshop" },
+  { name= "dev.frontend.dispatch_AMQP_PASS" , value= "roboshop123" }
   #{ name = "dev.frontend.rabbitmq.amqp_user", value = "roboshop" },
   #{ name = "dev.frontend.rabbitmq.amqp_pass", value = "roboshop123"}
 ]
