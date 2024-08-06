@@ -1,4 +1,4 @@
-resource "aws_ssm_parameter" "parameter5" {
+resource "aws_ssm_parameter" "parameter6" {
   count = length(var.parameter)
   name  = var.parameter[count.index].name   # keep folder name   # system manger in aws
   value = var.parameter[count.index].value  # any text
