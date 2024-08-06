@@ -1,7 +1,5 @@
 #-e env={{env}} --> env = dev & prod bcz in systems-manager/parameters-store
 # we store value like [dev].frontend.cart_url
-
-
 parameter = [
   { name= "{{env}}.frontend.catalogue_url" , value= "http://catalogue.devops72bat.online:8080/" },
   { name= "{{env}}.frontend.user_url" , value= "http://user.devops72bat.online:8080/" },
