@@ -16,27 +16,23 @@ parameter = [
   { name= "{{env}}.frontend.shipping_CART_ENDPOINT" , value= "cart.{{env}}ops72bat.online:8080" },
   { name= "{{env}}.frontend.shipping_db_host" , value= "mysql.{{env}}ops72bat.online" },
   { name= "{{env}}.frontend.shipping_user" , value= "root" },
-  { name= "{{env}}.frontend.shipping_password" , value= "RoboShop@1" },
   { name= "{{env}}.frontend.payment_CART_HOST" , value= "cart.{{env}}ops72bat.online" },
   { name= "{{env}}.frontend.payment_CART_PORT" , value= "8080" },
   { name= "{{env}}.frontend.payment_USER_HOST" , value= "user.{{env}}ops72bat.online" },
   { name= "{{env}}.frontend.payment_USER_PORT" , value= "8080" },
   { name= "{{env}}.frontend.payment_AMQP_HOST" , value= "rabbitmq.{{env}}ops72bat.online" },
   { name= "{{env}}.frontend.payment_AMQP_USER" , value= "roboshop" },
-  { name= "{{env}}.frontend.payment_AMQP_PASS" , value= "roboshop123" },
   { name= "{{env}}.frontend.dispatch" , value= "dispatch.{{env}}ops72bat.online" },
   { name= "{{env}}.frontend.dispatch_AMQP_HOST" , value= "rabbitmq.{{env}}ops72bat.online" },
-  { name= "{{env}}.frontend.dispatch_AMQP_USER" , value= "roboshop" },
-  { name= "{{env}}.frontend.dispatch_AMQP_PASS" , value= "roboshop123" }
-
+  { name= "{{env}}.frontend.dispatch_AMQP_USER" , value= "roboshop" }
 
 ]
 
-#password = [
-#  { name= "{{env}}.frontend.shipping_password" , value= "RoboShop@1" },
-#  { name= "{{env}}.frontend.payment_AMQP_PASS" , value= "roboshop123" },
-#  { name= "{{env}}.frontend.dispatch_AMQP_PASS" , value= "roboshop123" }
-#]
+password = [
+  { name= "{{env}}.frontend.shipping_password" , value= "RoboShop@1" },
+  { name= "{{env}}.frontend.payment_AMQP_PASS" , value= "roboshop123" },
+  { name= "{{env}}.frontend.dispatch_AMQP_PASS" , value= "roboshop123" }
+]
 
 
 
