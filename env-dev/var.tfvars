@@ -31,9 +31,9 @@ parameter = [
 ]
 
 password = [
-  { name= "{{env}}.frontend.shipping_password" , value= "RoboShop@1" },
-  { name= "{{env}}.frontend.payment_AMQP_PASS" , value= "roboshop123" },
-  { name= "{{env}}.frontend.dispatch_AMQP_PASS" , value= "roboshop123" }
+  { name= "{{env}}.shipping_password" , value= "RoboShop@1" },
+  { name= "{{env}}.payment_AMQP_PASS" , value= "roboshop123" },
+  { name= "{{env}}.dispatch_AMQP_PASS" , value= "roboshop123" }
 ]
 
 
