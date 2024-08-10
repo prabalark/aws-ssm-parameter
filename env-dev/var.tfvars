@@ -9,9 +9,9 @@ parameter = [
   { name= "dev.catalogue.mongo_endpoint" , value= "mongodb.devops72bat.online" },  #schema.yml
   { name= "dev.catalogue.mongo" , value= "MONGO=true" },
   { name= "dev.catalogue.mongo_url" , value= "mongodb://mongodb.devops72bat.online:27017/catalogue" },
-  { name= "dev.user_REDIS_HOST" , value= "redis.devops72bat.online" },
-  { name= "dev.user_mongo" , value= "MONGO=true" },
-  { name= "dev.user_mongo_url" , value= "mongodb://mongodb.devops72bat.online:27017/users" },
+  { name= "dev.user.redis_host" , value= "redis.devops72bat.online" },
+  { name= "dev.user.mongo" , value= "MONGO=true" },
+  { name= "dev.user.mongo_url" , value= "mongodb://mongodb.devops72bat.online:27017/users" },
   { name= "dev.user_mongoendpoint" , value= "mongodb.devops72bat.online" },
   { name= "dev.cart_REDIS_HOST" , value= "redis.devops72bat.online" },
   { name= "dev.cart_CATALOGUE_HOST" , value= "catalogue.devops72bat.online" },
