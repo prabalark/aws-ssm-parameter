@@ -16,17 +16,15 @@ parameter = [
   { name= "dev.cart.redis_host" , value= "redis.devops72bat.online" },
   { name= "dev.cart.catalogue_host" , value= "catalogue.devops72bat.online" },
   { name= "dev.cart.catalogue_port" , value= "8080" },
-
   { name= "dev.shipping.cart_endpoint" , value= "cart.devops72bat.online:8080" },
   { name= "dev.shipping.db_host" , value= "mysql.devops72bat.online" },
-  { name= "dev.shipping.user" , value= "root" },
-
-  { name= "dev.payment_CART_HOST" , value= "cart.devops72bat.online" },
-  { name= "dev.payment_CART_PORT" , value= "8080" },
-  { name= "dev.payment_USER_HOST" , value= "user.devops72bat.online" },
-  { name= "dev.payment_USER_PORT" , value= "8080" },
-  { name= "dev.payment_AMQP_HOST" , value= "rabbitmq.devops72bat.online" },
-  { name= "dev.payment_AMQP_USER" , value= "roboshop" },
+  { name= "dev.shipping.user" , value= "root" }, #schema
+  { name= "dev.payment.cart_host" , value= "cart.devops72bat.online" },
+  { name= "dev.payment.cart_port" , value= "8080" },
+  { name= "dev.payment.user_host" , value= "user.devops72bat.online" },
+  { name= "dev.payment.user_port" , value= "8080" },
+  { name= "dev.payment.amqp_host" , value= "rabbitmq.devops72bat.online" },
+  { name= "dev.payment.amqp_user" , value= "roboshop" },
   { name= "dev.dispatch" , value= "dispatch.devops72bat.online" },
   { name= "dev.dispatch_AMQP_HOST" , value= "rabbitmq.devops72bat.online" },
   { name= "dev.dispatch_AMQP_USER" , value= "roboshop" }
@@ -34,8 +32,8 @@ parameter = [
 ]
 
 password = [
-  { name= "dev.shipping.password" , value= "RoboShop@1" },
-  { name= "dev.payment_AMQP_PASS" , value= "roboshop123" },
+  { name= "dev.shipping.password" , value= "RoboShop@1" }, #schema
+  { name= "dev.payment.amqp_pass" , value= "roboshop123" },
   { name= "dev.dispatch_AMQP_PASS" , value= "roboshop123" }
 ]
 
