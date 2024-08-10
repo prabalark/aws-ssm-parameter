@@ -6,13 +6,13 @@ parameter = [
   { name= "dev.frontend.cart_url" , value= "http://cart.devops72bat.online:8080/" },
   { name= "dev.frontend.shipping_url" , value= "http://shipping.devops72bat.online:8080/" },
   { name= "dev.frontend.payment_url" , value= "http://payment.devops72bat.online:8080/" },
-  { name= "dev.catalogue.mongo_endpoint" , value= "mongodb.devops72bat.online" },  #schema.yml
+  { name= "dev.catalogue.mongo_endpoint" , value= "mongodb.devops72bat.online" },  #schema
   { name= "dev.catalogue.mongo" , value= "MONGO=true" },
   { name= "dev.catalogue.mongo_url" , value= "mongodb://mongodb.devops72bat.online:27017/catalogue" },
   { name= "dev.user.redis_host" , value= "redis.devops72bat.online" },
   { name= "dev.user.mongo" , value= "MONGO=true" },
   { name= "dev.user.mongo_url" , value= "mongodb://mongodb.devops72bat.online:27017/users" },
-  { name= "dev.user_mongoendpoint" , value= "mongodb.devops72bat.online" },
+  { name= "dev.user_mongo_endpoint" , value= "mongodb.devops72bat.online" }, #schema
   { name= "dev.cart_REDIS_HOST" , value= "redis.devops72bat.online" },
   { name= "dev.cart_CATALOGUE_HOST" , value= "catalogue.devops72bat.online" },
   { name= "dev.cart_CATALOGUE_PORT" , value= "8080" },
