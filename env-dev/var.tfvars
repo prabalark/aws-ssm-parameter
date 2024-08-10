@@ -12,6 +12,7 @@ parameter = [
   { name= "dev.user_REDIS_HOST" , value= "redis.devops72bat.online" },
   { name= "dev.user_montru" , value= "MONGO=true" },
   { name= "dev.user_monurl" , value= "mongodb://mongodb.devops72bat.online:27017/users" },
+  { name= "dev.user_mongoendpoint" , value= "mongodb.devops72bat.online" },
   { name= "dev.cart_REDIS_HOST" , value= "redis.devops72bat.online" },
   { name= "dev.cart_CATALOGUE_HOST" , value= "catalogue.devops72bat.online" },
   { name= "dev.cart_CATALOGUE_PORT" , value= "8080" },
