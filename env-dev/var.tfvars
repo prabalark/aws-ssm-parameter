@@ -36,7 +36,9 @@ password = [
   { name = "dev.payment.amqp_pass" , value = "roboshop123" },
   { name = "dev.dispatch.amqp_pass" ,value = "roboshop123" },
   { name = "dev.docdb.db_user" , value = "roboshop" } ,
-  { name = "dev.docdb.db_pass" , value = "roboshop123456" }
+  { name = "dev.docdb.db_pass" , value = "roboshop123456" },
+  { name = "dev.rds.db_user", value = "roboshop" },
+  { name = "dev.rds.db_pass", value = "roboshop123456" }
 ]
 
 
