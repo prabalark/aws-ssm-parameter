@@ -7,8 +7,8 @@ parameter = [
   { name= "dev.frontend.shipping_url" , value= "http://shipping.devops72bat.online:8080/" },
   { name= "dev.frontend.payment_url" , value= "http://payment.devops72bat.online:8080/" },
   { name= "dev.catalogue.mongo_endpoint" , value= "mongodb.devops72bat.online" },  #schema
-  { name= "dev.catalogue.mongo" , value= "MONGO=true" },
-  { name= "dev.catalogue.mongo_url" , value= "mongodb://mongodb.devops72bat.online:27017/catalogue" },
+  { name= "dev.catalogue.mongo" , value= "DOCUMENTDB=true" },  # "MONGO=true" now we are doing DocDB
+  { name= "dev.catalogue.mongo_url" , value= "mongodb://username:password@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
   { name= "dev.user.redis_host" , value= "redis.devops72bat.online" },
   { name= "dev.user.mongo" , value= "MONGO=true" },
   { name= "dev.user.mongo_url" , value= "mongodb://mongodb.devops72bat.online:27017/users" },
@@ -39,7 +39,8 @@ password = [
   { name = "dev.docdb.db_pass" , value = "roboshop123456" },
   { name = "dev.rds.db_user", value = "roboshop" },
   { name = "dev.rds.db_pass", value = "roboshop123456" },
-  { name = "dev.rabbitmq.rabbitm1_lg_password", value = "roboshop123" }
+  { name = "dev.rabbitmq.rabbitm1_lg_password", value = "roboshop123" } ,
+  { name= "dev.catalogue.mongo_url" , value= "mongodb://username:password@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
 ]
 
 
