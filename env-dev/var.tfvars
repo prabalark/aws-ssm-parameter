@@ -27,7 +27,8 @@ parameter = [
   { name= "dev.payment.amqp_user" , value= "roboshop" },
   { name= "dev.dispatch" , value= "dispatch.devops72bat.online" },
   { name= "dev.dispatch.amqp_host" , value= "rabbitmq.devops72bat.online" },
-  { name= "dev.dispatch.amqp_user" , value= "roboshop" }
+  { name= "dev.dispatch.amqp_user" , value= "roboshop" },
+  { name= "dev.docdb.db_endpoint" , value= "docdb-dev.cb0y4iwi2yc4.us-east-1.docdb.amazonaws.com" }
 
 ]
 
