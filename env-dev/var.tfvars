@@ -9,11 +9,9 @@ parameter = [
   { name= "dev.catalogue.mongo_endpoint" , value= "mongodb.devops72bat.online" },  #schema
   { name= "dev.catalogue.mongo" , value= "DOCUMENTDB=true" },  # "MONGO=true" now we are doing DocDB
   { name= "dev.docdb.db_endpoint" , value= "docdb-dev.cb0y4iwi2yc4.us-east-1.docdb.amazonaws.com" },
-
   { name= "dev.user.mongo" , value= "DOCUMENTDB=true" },
   { name= "dev.user.redis_host" , value= "elasticache-dev-elasticache.pacz9f.ng.0001.use1.cache.amazonaws.com" },
   { name= "dev.user.mongo_endpoint" , value= "mongodb-dev.rdevopsb72.online" }, #schema
-
   { name= "dev.cart.redis_host" , value= "redis.devops72bat.online" },
   { name= "dev.cart.catalogue_host" , value= "catalogue.devops72bat.online" },
   { name= "dev.cart.catalogue_port" , value= "80" },
@@ -29,7 +27,6 @@ parameter = [
   { name= "dev.dispatch" , value= "dispatch.devops72bat.online" },
   { name= "dev.dispatch.amqp_host" , value= "rabbitmq.devops72bat.online" },
   { name= "dev.dispatch.amqp_user" , value= "roboshop" }
-
 
 ]
 
