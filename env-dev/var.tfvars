@@ -8,7 +8,6 @@ parameter = [
   { name= "dev.frontend.payment_url" , value= "http://payment-dev.devops72bat.online:80/" },
   { name= "dev.catalogue.mongo_endpoint" , value= "mongodb.devops72bat.online" },  #schema
   { name= "dev.catalogue.mongo" , value= "DOCUMENTDB=true" },  # "MONGO=true" now we are doing DocDB
-  { name= "dev.catalogue.mongo_url" , value= "mongodb://username:password@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
   { name= "dev.docdb.db_endpoint" , value= "docdb-dev.cb0y4iwi2yc4.us-east-1.docdb.amazonaws.com" },
   { name= "dev.user.redis_host" , value= "redis.devops72bat.online" },
   { name= "dev.user.mongo" , value= "MONGO=true" },
