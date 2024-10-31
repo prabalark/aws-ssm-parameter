@@ -1,11 +1,11 @@
 #-e env={{env}} --> env = dev & prod bcz in systems-manager/parameters-store
 # we store value like [dev].frontend.cart_url
 parameter = [
-  { name= "dev.frontend.catalogue_url" , value= "http://catalogue.devops72bat.online:80/" },
-  { name= "dev.frontend.user_url" , value= "http://user.devops72bat.online:80/" },
-  { name= "dev.frontend.cart_url" , value= "http://cart.devops72bat.online:80/" },
-  { name= "dev.frontend.shipping_url" , value= "http://shipping.devops72bat.online:80/" },
-  { name= "dev.frontend.payment_url" , value= "http://payment.devops72bat.online:80/" },
+  { name= "dev.frontend.catalogue_url" , value= "http://catalogue-dev.devops72bat.online:80/" },
+  { name= "dev.frontend.user_url" , value= "http://user-dev.devops72bat.online:80/" },
+  { name= "dev.frontend.cart_url" , value= "http://cart-dev.devops72bat.online:80/" },
+  { name= "dev.frontend.shipping_url" , value= "http://shipping-dev.devops72bat.online:80/" },
+  { name= "dev.frontend.payment_url" , value= "http://payment-dev.devops72bat.online:80/" },
   { name= "dev.catalogue.mongo_endpoint" , value= "mongodb.devops72bat.online" },  #schema
   { name= "dev.catalogue.mongo" , value= "DOCUMENTDB=true" },  # "MONGO=true" now we are doing DocDB
   { name= "dev.catalogue.mongo_url" , value= "mongodb://username:password@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
