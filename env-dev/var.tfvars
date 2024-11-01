@@ -15,10 +15,10 @@ parameter = [
   { name= "dev.cart.redis_host" , value= "elasticache-dev-elasticache.pacz9f.ng.0001.use1.cache.amazonaws.com" },
   { name= "dev.cart.catalogue_host" , value= "catalogue-dev.devops72bat.online" },
   { name= "dev.cart.catalogue_port" , value= "80" },
-  { name= "dev.shipping.cart_endpoint" , value= "cart.devops72bat.online:80" },
+  { name= "dev.shipping.cart_endpoint" , value= "cart-dev.devops72bat.online:80" },
   { name= "dev.shipping.db_host" , value= "mysql.devops72bat.online" },
   { name= "dev.shipping.user" , value= "root" }, #schema
-  { name= "dev.payment.cart_host" , value= "cart.devops72bat.online" },
+  { name= "dev.payment.cart_host" , value= "cart-dev.devops72bat.online" },
   { name= "dev.payment.cart_port" , value= "80" },
   { name= "dev.payment.user_host" , value= "user.devops72bat.online" },
   { name= "dev.payment.user_port" , value= "80" },
