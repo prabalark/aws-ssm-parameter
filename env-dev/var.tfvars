@@ -6,7 +6,7 @@ parameter = [
   { name= "dev.frontend.cart_url" , value= "http://cart-dev.devops72bat.online:80/" },
   { name= "dev.frontend.shipping_url" , value= "http://shipping-dev.devops72bat.online:80/" },
   { name= "dev.frontend.payment_url" , value= "http://payment-dev.devops72bat.online:80/" },
-  { name= "dev.catalogue.mongo_endpoint" , value= "mongodb-dev.rdevopsb72.online" },  #schema #mongodb.devops72bat.online
+  { name= "dev.catalogue.mongo_endpoint" , value= "mongodb-dev.devops72bat.online" },  #schema #mongodb.devops72bat.online
   { name= "dev.catalogue.mongo" , value= "DOCUMENTDB=true" },  # "MONGO=true" now we are doing DocDB
   { name= "dev.docdb.db_endpoint" , value= "docdb-dev.cb0y4iwi2yc4.us-east-1.docdb.amazonaws.com" },
   { name= "dev.user.mongo" , value= "DOCUMENTDB=true" },
@@ -20,9 +20,9 @@ parameter = [
   { name= "dev.shipping.user" , value= "root" }, #schema
   { name= "dev.payment.cart_host" , value= "cart-dev.devops72bat.online" },
   { name= "dev.payment.cart_port" , value= "80" },
-  { name= "dev.payment.user_host" , value= "user.devops72bat.online" },
+  { name= "dev.payment.user_host" , value= "user-dev.devops72bat.online" },
   { name= "dev.payment.user_port" , value= "80" },
-  { name= "dev.payment.amqp_host" , value= "rabbitmq-dev.rdevopsb72.online" }, #rabbitmq.devops72bat.online
+  { name= "dev.payment.amqp_host" , value= "rabbitmq-dev.devops72bat.online" }, #rabbitmq.devops72bat.online
   { name= "dev.payment.amqp_user" , value= "roboshop" },
   { name= "dev.dispatch" , value= "dispatch.devops72bat.online" },
   { name= "dev.dispatch.amqp_host" , value= "rabbitmq.devops72bat.online" },
