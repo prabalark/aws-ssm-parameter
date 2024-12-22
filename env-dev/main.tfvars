@@ -12,7 +12,7 @@ parameter = [
   { name= "dev.user.mongo" , value= "DOCUMENTDB=true" },
   { name= "dev.user.redis_host" , value= "elasticache-dev-elasticache.2e3u5o.ng.0001.use1.cache.amazonaws.com" },
   { name= "dev.user.mongo_endpoint" , value= "mongodb.devops72bat.online" }, #schema
-  { name= "dev.cart.redis_host" , value= "elasticache-dev-elasticache.pacz9f.ng.0001.use1.cache.amazonaws.com" },
+  { name= "dev.cart.redis_host" , value= "elasticache-dev-elasticache.2e3u5o.ng.0001.use1.cache.amazonaws.com" },
   { name= "dev.cart.catalogue_host" , value= "catalogue-dev.devops72bat.online" },
   { name= "dev.cart.catalogue_port" , value= "80" },
   { name= "dev.shipping.cart_endpoint" , value= "cart-dev.devops72bat.online:80" },
