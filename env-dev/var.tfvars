@@ -8,7 +8,7 @@ parameter = [
   { name= "dev.frontend.payment_url" , value= "http://payment-dev.devops72bat.online:80/" },
   { name= "dev.catalogue.mongo_endpoint" , value= "mongodb-dev.devops72bat.online" },  #schema #mongodb.devops72bat.online
   { name= "dev.catalogue.mongo" , value= "DOCUMENTDB=true" },  # "MONGO=true" now we are doing DocDB
-  { name= "dev.docdb.db_endpoint" , value= "docdb-dev.cb0y4iwi2yc4.us-east-1.docdb.amazonaws.com" },
+  { name= "dev.docdb.db_endpoint" , value= "docdb-dev.cfa4gymqawjw.us-east-1.docdb.amazonaws.com" },
   { name= "dev.user.mongo" , value= "DOCUMENTDB=true" },
   { name= "dev.user.redis_host" , value= "elasticache-dev-elasticache.pacz9f.ng.0001.use1.cache.amazonaws.com" },
   { name= "dev.user.mongo_endpoint" , value= "mongodb.devops72bat.online" }, #schema
