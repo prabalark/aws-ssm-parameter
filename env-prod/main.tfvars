@@ -16,7 +16,7 @@ parameter = [
   { name= "prod.cart.catalogue_host" , value= "catalogue-prod.devops72bat.online" },
   { name= "prod.cart.catalogue_port" , value= "80" },
   { name= "prod.shipping.cart_endpoint" , value= "cart-prod.devops72bat.online:80" },
-  { name= "prod.shipping.rds_db_host" , value= "rds-dev-rds.cluster-cfa4gymqawjw.us-east-1.rds.amazonaws.com" },
+  { name= "prod.shipping.rds_db_host" , value= "rds-prod-rds.cluster-cfa4gymqawjw.us-east-1.rds.amazonaws.com" },
   { name= "prod.shipping.user" , value= "root" }, #schema
   { name= "prod.payment.cart_host" , value= "cart-prod.devops72bat.online" },
   { name= "prod.payment.cart_port" , value= "80" },
