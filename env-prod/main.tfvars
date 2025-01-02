@@ -10,9 +10,9 @@ parameter = [
   { name= "prod.catalogue.mongo" , value= "DOCUMENTDB=true" },  # "MONGO=true" now we are doing DocDB
   { name= "prod.docdb.db_endpoint" , value= "docdb-prod.cfa4gymqawjw.us-east-1.docdb.amazonaws.com" },
   { name= "prod.user.mongo" , value= "DOCUMENTDB=true" },
-  { name= "prod.user.redis_host" , value= "elasticache-dev-elasticache.2e3u5o.ng.0001.use1.cache.amazonaws.com" },
+  { name= "prod.user.redis_host" , value= "elasticache-prod-elasticache.2e3u5o.ng.0001.use1.cache.amazonaws.com" },
   { name= "prod.user.mongo_endpoint" , value= "mongodb.devops72bat.online" }, #schema
-  { name= "prod.cart.redis_host" , value= "elasticache-dev-elasticache.2e3u5o.ng.0001.use1.cache.amazonaws.com" },
+  { name= "prod.cart.redis_host" , value= "elasticache-prod-elasticache.2e3u5o.ng.0001.use1.cache.amazonaws.com" },
   { name= "prod.cart.catalogue_host" , value= "catalogue-prod.devops72bat.online" },
   { name= "prod.cart.catalogue_port" , value= "80" },
   { name= "prod.shipping.cart_endpoint" , value= "cart-prod.devops72bat.online:80" },
